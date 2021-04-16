@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Regular.eot');
+    src: url('../fonts/Metropolis-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Metropolis-Regular.woff2') format('woff2'),
+    url('../fonts/Metropolis-Regular.woff') format('woff'),
+    url('../fonts/Metropolis-Regular.ttf') format('truetype'),
+    url('../fonts/Metropolis-Regular.svg#Metropolis-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 182px;
+    width: 100%;
+}
+
+.container {
+    margin: auto;
+    width: 98%;
+    padding-top: 25px;
+}
+.top{
+
+
+    display:flex;
+
+}
+.search{
+    margin-left: 20px;
+    width: 210px;
+    height: 43px;
+}
+.shop{
+    border-radius: 10px;
+    background-color: #252525;
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    padding-top: 21px;
+    margin-left: 25px;
+}
+.shop a {
+    font-size: 15px;
+    color: white;
+    font-family: 'Metropolis';
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.fa-shopping-cart{
+    color:white;
+}
+.login {
+    border-radius: 10px;
+    background-color: #464646;
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    padding-top: 21px;
+    margin-left: 25px;
+}
+.login a{
+    font-size: 15px;
+    color: white;
+    font-family: 'Metropolis';
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.signup {
+    border-radius: 10px;
+    background-color: #fa090a;
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    padding-top: 21px;
+    margin-left: 25px;
+}
+.signup a{
+    font-size: 15px;
+    color: white;
+    font-family: 'Metropolis';
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.underline{
+
+    background-color: #464646;
+    width: 97%;
+    height: 3px;
+    margin: 35px auto 0 auto;
+}
+.information{
+    margin-top: 25px;
+    display:inline-block;
+}
+.information li{
+    display:inline-block;
+    color:white;
+    margin-left: 35px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.information li:hover{
+    text-decoration: underline;
+    text-decoration-color:red;
+
+}
+.social{
+    margin-left: 18px;
+    display:inline-block;
+}
+.social li {
+    text-align: center;
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    background-color: #fa090a;
+    margin-left: 17px;
+    display: inline-block;
+    cursor: pointer;
+}
+.social li i {
+    margin-top: 6px;
+}
+
+
