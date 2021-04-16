@@ -133,6 +133,7 @@ header {
 .hello{
 font-size-adjust: none;
 padding-left: 50px;
+    color: aqua;
 }
 
 
